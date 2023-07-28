@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -21,37 +22,38 @@
                 <div class="hero-set-btn">
                     <button class="hero-btn" type="button">Get started</button>
                     <form action="#" target="_blank">
-                        <button class="hero-btn-action">Explore</button>
+                        <button style="@import url(./services-block.css);" class="hero-btn-action">Explore</button>
                     </form>
                 </div>
             </div>
             <div class="hero-image-box">
                 <div class="hero-image-container">
-                    <ul class="hero-clients-list">
-                        <li>
-                            <img class="hero-clients-img" src="/images/ellipse-6076@x1.png"
-                            srcset="/images/ellipse-6076@x1.png x1
-                                    /images/ellipse-6076@x2.png x2"
-                            alt="photo Clients1">
-                        </li>
-                        <li>
-                            <img class="hero-clients-img" src="/images/ellipse-6076(2)@x1.png" 
-                            srcset="/images/ellipse-6076(2)@x1.png x1
-                                    /images/ellipse-6076(2)@x2.png x2"
-                            alt="photo Clients2">
-                        </li>
-                        <li>
-                            <img class="hero-clients-img" src="/images/ellipse-6076(3)@x1.png"
-                                srcset="/images/ellipse-6076(3)@x1.png x1
-                                        /images/ellipse-6076(3)@x2.png x2"
-                                alt="photo Clients3">
-                        </li>
-                        <li>
-                            <p class="hero-clients-text">
-                                Our Clients
-                            </p>
-                        </li>
-                    </ul>
+                    <div class="hero-clients-box">
+                        <ul class="hero-clients-list">
+                            <li>
+                                <img class="hero-clients-img" src="/images/ellipse-6076@x1.png"
+                                srcset="/images/ellipse-6076@x1.png x1
+                                        /images/ellipse-6076@x2.png x2"
+                                alt="photo Clients1">
+                            </li>
+                            <li>
+                                <img class="hero-clients-img" src="/images/ellipse-6076(2)@x1.png" 
+                                srcset="/images/ellipse-6076(2)@x1.png x1
+                                        /images/ellipse-6076(2)@x2.png x2"
+                                alt="photo Clients2">
+                            </li>
+                            <li>
+                                <img class="hero-clients-img" src="/images/ellipse-6076(3)@x1.png"
+                                    srcset="/images/ellipse-6076(3)@x1.png x1
+                                            /images/ellipse-6076(3)@x2.png x2"
+                                    alt="photo Clients3">
+                            </li>
+                        </ul>
+
+                        <p class="hero-clients-text">
+                            Our Clients
+                        </p>
+                    </div>
                     <img class="hero-img-ceo" src="/images/img-ceo@x1.png" 
                     srcset="/images/img-ceo@x1.png x1
                             /images/img-ceo@x2.png x2"
